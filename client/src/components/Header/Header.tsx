@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import NavBar from './NavBar';
 import Logo from './Logo';
+import NavBarContainer from './NavBarContainer';
 
 export default function Header() {
   return (
     <>
       <Wrapper>
         <Logo />
-        <NavBar />
+        <NavBarContainer />
       </Wrapper>
     </>
   );
